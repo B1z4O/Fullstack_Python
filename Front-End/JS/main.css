@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: rgb(128, 247, 255);
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 580px;
+    width: 100%;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 6px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: rgb(38, 122, 231);
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(18, 108, 226);
+}
+
+.error-message {
+    font-size: 12px;
+    padding: 6px;
+    margin-bottom: 6px;
+    background-color: rgb(255, 63, 63);
+    color: white;
+    display: none;
+}
+
+input.error {
+    color: rgb(255, 63, 63);
+    border-color: rgb(255, 63, 63);
+    outline-color: rgb(255, 63, 63);
+}
+
+.success-message {
+    background-color: rgb(38, 122, 231);
+    padding: 16px;
+    color: white;
+    display: none;
+}
